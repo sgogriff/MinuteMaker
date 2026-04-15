@@ -1,0 +1,35 @@
+*.DS_Store*
+
+# LaTeX auxiliary files
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.log
+
+# Generated minutes
+output/
+input/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Secrets
+.env
+.env real
+.env.*
+
+# Runtime
+minutemaker.log
+minutemaker.log.*
+
+CLAUDE.md

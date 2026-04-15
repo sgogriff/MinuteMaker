@@ -1,0 +1,51 @@
+% \usepackage{bold-extra}
+
+\newcommand{\makeminutestitle}{
+        \center
+        \includegraphics[width=0.5\textwidth]{header/liverpool-logo.png}\\
+        \vspace{10pt}
+        \textbf{\bfseries \Large Nuclear Physics Group Meeting Minutes}\\ [0.5cm]
+        {\large Meeting Date: \todaydate }  % DO NOT TOUCH, EDIT IN THE ACTUAL DOCUMENT
+        \noindent\rule{\textwidth}{1pt}
+        
+        
+        % BE MINDFUL OF CHARACTERS IN THE URLS, #, &, AND % DO NOT PLAY NICE
+        % INCLUDE A \ LIKE \# INSTEAD.
+        \href{https://example.org/meeting-schedule}{Meeting Schedule}
+        \hspace{10pt}
+        \href{https://example.org/journal-club-schedule}{Journal Club Schedule}
+        \hspace{10pt}
+        % THE VIEW_ONLY VERSION OF THIS TEMPLATE
+        \href{https://example.org/minutes-template}{Minutes Template}
+        % THE EDITABLE VERSION OF THIS TEMPLATE
+        % \href{https://example.org/minutes-template-edit}{Minutes Template}
+        \hspace{10pt}
+        \href{https://example.org/events}{NuPECC Events}
+        \vspace{-6pt}
+        \noindent\rule{\textwidth}{1pt}
+        \begin{flushleft}
+        Chair: \chair\newline % DO NOT TOUCH, EDIT IN THE ACTUAL DOCUMENT
+        Secretary: \secretary\newline  % DO NOT TOUCH, EDIT IN THE ACTUAL DOCUMENT
+        \vspace{-4pt}
+        \noindent\rule{\textwidth}{1pt}
+        \end{flushleft}
+        \justify
+
+        % \hypersetup{pdfauthor={\secretary}, pdftitle={Nuclear Group Minutes - \todaydate}}
+        
+        }
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=red,
+    pdftitle={Nuclear Group Minutes},
+    pdfpagemode=FullScreen
+}
+
+
+\def\jv{Jyväskylä }
+\def\LNL{Legnaro }
+\def\GSI{GSI Helmholtzzentrum für Schwerionenforschung }

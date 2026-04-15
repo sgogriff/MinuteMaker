@@ -1,0 +1,55 @@
+Chair: Alex
+Sec: Priya
+
+Dept Updates:
+dept budget came through but admin is slow, funds maybe before 20th april
+
+new safety training deadline end of month, everyone needs to do, especially 2nd flor lab users
+
+new cohort for September looking strong..
+
+LN2 delays - no updates. Morgan has a headache.
+
+Postgrd issus:
+student visa for Sam Carter issue still going
+library books on Cs137 and Co57 arrived. Contact Taylor for details on borrowing them
+shared drive full need to clean up
+
+
+Successes:
+3 students graduated last month nice
+Casey corrections nearly done submiting next week
+Jordan's viva is may, final date tbc
+
+Computing issues=
+Riley's ssh dropping, firewall issue probably
+Tmux now installed network wide
+CSD is now network admins, thanks Morgan for looking after it up to now, also everyone will be required to do cybersecurity training on the training portal before next year
+npcluster2 went down last tuesday power surge, backup working now
+
+
+2nd floor lab news
+Work being undertaken in 3 weeks today.
+Everyone is encouraged to help with the moving, this is a large undertaking.
+
+Exp+Conf
+conferences coming up - nuclear forensics conf in Manchester. Central venue. 3-5october. Taylor will follow with details on email soon.
+jyu network stable now, Cameron going to do his experiment June 1-30. Contact him for details on the travel scheme. 
+Subject of Dr Lane's new paper is found here: https://example.org/papers/sample-paper this will be discussed in JYU during Cameron's tenure.
+
+JC
+None
+
+
+AOB; it's Jamie's bday today! Going for drinks after work tomorrow. Welcome to come.
+
+Also...
+fire alarm test 22nd need to evacuate 20 mins
+parking is worse becaus of construction work on chemistry bloc
+
+
+Talk by owain on using claude API
+
+Next meeting a week today, sec:Rowan	Chair:Harper
+
+

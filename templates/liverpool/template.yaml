@@ -1,0 +1,41 @@
+# Liverpool Nuclear Physics Group — template configuration
+# This file defines the sections, metadata, and formatting for this template.
+
+name: "University of Liverpool Nuclear Physics Group"
+short_name: "Nuclear Physics Group"
+date_format: "%d/%m/%Y"
+
+# Mandatory sections — always present, in this order.
+# If the meeting notes have nothing for a section, it gets "Nothing to report."
+mandatory_sections:
+  - name: "Department Updates"
+  - name: "Postgraduate Issues"
+  - name: "Computing Issues & Online Resources"
+  - name: "2nd Floor Lab News"
+    latex_heading: "\\texorpdfstring{2\\textsuperscript{nd}}{2nd} Floor Lab News"
+  - name: "Experiments & Conferences"
+  - name: "Group Successes (Papers/Prizes/Projects)"
+  - name: "Journal Club"
+  - name: "Any Other Business"
+  - name: "Talks"
+  - name: "Next Meeting"
+
+# Optional sections — only included if the notes contain relevant content.
+optional_sections:
+  - name: "Upcoming Vivas"
+  - name: "Outreach & Community Engagement"
+
+# Where optional sections should be inserted (after which mandatory section)
+optional_section_positions:
+  "Upcoming Vivas": "Experiments & Conferences"
+  "Outreach & Community Engagement": "Journal Club"
+
+# LaTeX convenience macros (injected via header/title_code.tex)
+convenience_macros:
+  jv: "Jyväskylä"
+  LNL: "Legnaro"
+  GSI: "GSI Helmholtzzentrum für Schwerionenforschung"
+
+# Extra LaTeX packages beyond the base set
+extra_packages:
+  - "\\usepackage[version=4]{mhchem}"

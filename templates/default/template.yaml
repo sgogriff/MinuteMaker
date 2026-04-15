@@ -1,0 +1,23 @@
+# Default meeting minutes template
+# A generic template suitable for any group or organisation.
+# Copy this directory and customise it for your own needs.
+
+name: "Meeting Minutes"
+short_name: "Meeting"
+date_format: "%d/%m/%Y"
+
+mandatory_sections:
+  - name: "Welcome & Attendance"
+  - name: "Updates"
+  - name: "Discussion Items"
+  - name: "Action Items"
+  - name: "Any Other Business"
+  - name: "Next Meeting"
+
+optional_sections: []
+
+optional_section_positions: {}
+
+convenience_macros: {}
+
+extra_packages: []

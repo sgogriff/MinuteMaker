@@ -1,0 +1,44 @@
+# MinuteMaker configuration
+
+# Template — directory name under templates/
+template: liverpool
+
+# LLM provider: "anthropic" or "openai_compatible"
+# provider: openai_compatible
+provider: anthropic
+
+# ── Model selection ──────────────────────────────────────────────────────
+# Uncomment ONE model line below. If the model isn't downloaded yet,
+# MinuteMaker will pull it automatically on first run.
+#
+# Cloud (provider: anthropic) ─────────────────────────────────────────────
+model: claude-sonnet-4-6       # Anthropic cloud — best quality, requires API key
+#
+# Local — small (4–8 GB RAM/VRAM) ─────────────────────────────────────────
+# model: llama3:8b                        # 8B params, ~4.7 GB — fast, basic quality
+# model: gemma2:9b                      # 9B params, ~5.4 GB — good general quality
+# model: qwen2.5:7b                     # 7B params, ~4.4 GB — strong at structured output
+#
+# Local — medium (16–24 GB RAM/VRAM) ──────────────────────────────────────
+# model: llama3.1:70b-instruct-q4_0     # 70B params quantised, ~20 GB — near-cloud quality
+# model: qwen2.5:32b                    # 32B params, ~18 GB — recommended for local use
+# model: gemma2:27b                     # 27B params, ~16 GB — good balance of speed/quality
+#
+# Local — large (32+ GB RAM/VRAM) ─────────────────────────────────────────
+# model: llama3.1:70b                   # 70B params, ~40 GB — excellent quality
+# model: qwen2.5:72b                    # 72B params, ~41 GB — best local quality
+# ─────────────────────────────────────────────────────────────────────────
+
+max_tokens: 8192
+
+# For openai_compatible provider (Ollama, llama-cpp, vLLM, LM Studio, etc.):
+base_url: http://localhost:11434/v1
+api_key: not-needed
+managed_server: true              # start/stop the server automatically
+server_command: "ollama serve"    # command to start the server
+server_startup_timeout: 120       # seconds to wait for server to be ready
+
+# Paths
+input_dir: ./input
+output_dir: ./output
+log_level: INFO
